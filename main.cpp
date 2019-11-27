@@ -401,8 +401,8 @@ extern "C" void* ThreadStats(void*) {
 }
 
 //TODO: Change Seeds
-static const string mainnet_seeds[] = {"dnsseed.chillpillcoin.org", "dnsseed2.chillpillcoin.org", "dnsseed3.chillpillcoin.org", ""};
-static const string testnet_seeds[] = {"testnet-dnsseed.chillpillcoin.org", "testnet-dnsseed2.chillpillcoin.org", "testnet-dnsseed3.chillpillcoin.org", ""};
+static const string mainnet_seeds[] = {"dnsseed.chillpillcoin.org", "dnsseed2.chillpillcoin.org", ""};
+static const string testnet_seeds[] = {"testnet-dnsseed.chillpillcoin.org", "testnet-dnsseed2.chillpillcoin.org", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
